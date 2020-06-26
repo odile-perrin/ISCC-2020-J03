@@ -1,0 +1,79 @@
+
+    #titel{
+        margin-left: 400px;
+    }
+
+    div.content {
+        clear: both;
+        padding:50px;
+        margin:100px;
+        overflow: hidden;
+        display:block;
+        padding-top:32px;
+    }
+    
+    h1{
+        color: rebeccapurple;
+    }
+
+    h2 {
+        width:180px;
+        text-align: right;
+        float:left;
+        padding:0;
+        clear:both;
+        font-size: 25px;
+        color:purple;
+    }
+    
+    h3 {
+        width:180px;
+        text-align: right;
+        float:left;
+        padding:0;
+        clear:both;
+        font-size: 13px;
+        color:#9a8b9b;
+    }
+    
+    p {
+        width:500px;
+        margin-left:200px;
+        float:right;
+    }
+    
+    em {
+        font-family: Georgia, "Times New Roman", serif;
+        font-style: italic;
+        color:#777777;
+        font-size:12px;
+        display: block;
+        padding-top:3px;
+    }
+    
+    ul.info {
+        float:right;
+        width:500px;
+        margin-left:40px;
+        list-style-type: none; 
+    }
+    
+    ul.info li {
+        margin:0;
+        padding:0;
+        float:left;
+        display: block;
+        width:500px;
+        background-image:url(../images/bullet.gif);
+        background-repeat: no-repeat;
+        padding-left:10px;
+        background-position: 0 .5em;
+        margin-top:12px;
+    }
+    
+    #footer{
+        width: 980px;
+        margin-left: 70px;
+        background-color: grey;
+        }
+    
