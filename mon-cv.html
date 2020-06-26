@@ -1,60 +1,144 @@
 <html>
-    <header>
-        
-            <img src="assetsD03/footer_Logo.png" 
-            width="80"
-            height="75,2" alt="CV Perrin" align=left>
-            <h1>CV <STRONG>Perrin</STRONG>Odile</h1>
-            Community Manager
-        
-            <br><BR>
-            <center><A HREF="mon-cv.html">Accueil</A> 
-    &nbsp;&nbsp;&nbsp;<A HREF="mon-cv-experiences.html">Expériences</A> 
-    &nbsp;&nbsp;&nbsp;<A HREF="mon-cv-formations.html">Formations</A></center>
+    <meta charset="utf-8">
+    <style>
+        div{
+            width:900px}
+        h2{
+            margin:0;
+            padding:0;
+        }
 
-    <BR><BR><img src="assets/photo-pro.jpg" alt="Photo CV Perrin Odile"
-        width="191.616"
-        height="177.536" alt="Profile" align=left>
-        <title>CV Perrin Odile</title>
+        #titel{
+            margin-left: 400px;
+        }
+
+        #parentblock{
+            width:800px;
+            height: 180px;
+            margin-left: 100px;
+            margin-right: 300px;
+            padding-right: 20px;
+        }
+
+        #profil{
+            left:20px;
+            padding-left: 5px;
+            padding-bottom: 100px;
+        }
+        .portrait{
+            margin-right: 20px;
+        }
+
+        #competences{
+            width:400px;
+            margin-left: 100px;
+            padding-left: 70px;
+        }
+
+        #interets{
+            width:400px;
+            margin-left: 100px;
+            padding-left: 70px;
+        }
         
-        <meta charset="utf-8">
+        #bordure{
+        height: 450px;
+        width: 980px;
+        margin-left: 150px;
+        border :2px solid#000000;}
+
+        #footer{
+        width: 980px;
+        margin-left: 53px;
+        background-color: grey;
+        }
+
+    </style>
+
+    <header>
+        <div id="titel">
+            <div class="block">
+
+      <h1>CV Perrin Odile</h1>
+        Community Manager
+        </div>
+    </div>
+    
+      <center>
+          <BR><A HREF="mon-cv.html">Accueil</A> 
+          &nbsp;&nbsp;&nbsp;<A HREF="mon-cv-experiences.html">Expériences</A> 
+          &nbsp;&nbsp;&nbsp;<A HREF="mon-cv-formations.html">Formations</A>
+      </center>
+    
+        <title>CV Perrin Odile</title>
+
         <link rel="stylesheet" href="mon-cv.css"
     </header>
 
     <body>
         <BR><BR>
-            <align="right">
-            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profil</h2>
+            <div id="bordure">
+            <div class="block">
+                <div id="parentblock">
+            <img class="portrait" src="assets/photo-pro.jpg" alt="Photo CV Perrin Odile"
+        width="191.616"
+        height="177.536">
+
+
+            <div id="profil">
+            <h2>Profil</h2>
             <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Née le 14/12/2001
-            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nationalité française
-            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Étudiante en marketing et communication avec de l'expérience dans le montage vidéo 
-            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et la création de contenu (Photoshop, InDesign et Microsoft Office Suite).
+            Née le 14/12/2001
+            <BR>Nationalité française
+            <BR>Étudiante en marketing et communication avec de l'expérience dans le montage vidéo 
+            <BR>et la création de contenu (Photoshop, InDesign et Microsoft Office Suite).
             </p>
-                
-        <BR>
+        </div>
+        </div>
+        </div>
+
+
+        <BR><div id="competences">
+            <div class="block">
             <h2>Compétences</h2>
+            <ul.unordered>
             <li>Adobe Photoshop</li>
             <li>Camtasia et Filmora</li>
             <li>Anglais</li>
             <li>Allemand</li>
-        </align>
+            </ul.unordered>
+        </div>
+        </div>
 
-        <BR>
+        
+        <BR><div id="interets">
+            <div class="block">
             <h2>Intérêts</h2>
+            <ul.unordered>
             <li>Montage vidéo</li>
             <li>Cosmétiques</li>
             <li>Mode</li>
             <li>Couture</li>
+        </ul.unordered>
+        </div>
+    </div>
+</div>
     </body>
 
     <footer>
-        <BR><BR>
-        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</h2>
-        tel: +33781087080
-        &nbsp;&nbsp;&nbsp;&nbsp;mail: odilemperrin@gmail.com
-        <BR>
-            <span><A HREF="https://www.linkedin.com/in/odileperrin/">LinkedIn</A></span>
+            <div id="footer">
+            <div class="block">
+        <p>+33781087080
+          <BR>odilemperrin@gmail.com
+          </p>
+    
+            <h4>réseau pro :</h4>
+        <p><A HREF="https://www.linkedin.com/in/odileperrin/">LinkedIn</A>
         </p>
+        </div>
+        </div>
+
+
+    
     </footer>
-</html>
+    </html>
